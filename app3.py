@@ -14,7 +14,7 @@ def get_matrix_data():
         {"Drug": "Benadryl", "Class": "Anti-histamine", "Route": "Oral", "Indication": "Allergic Reaction", "Contra": "Hypertension, Constipation", "Dose": "25-50 mg"},
         {"Drug": "Duo-Neb", "Class": "Beta Agonist + Anticholinergic", "Route": "Inhaled", "Indication": "COPD/Asthma", "Contra": "None in true emergency", "Dose": "3.5 mg/3.0 mL"},
         {"Drug": "Glucagon", "Class": "Hormone", "Route": "IM", "Indication": "BGL < 50, Unable to swallow", "Contra": "None in true emergency", "Dose": "1 mg"},
-        {"Drug": "Duo-Dote", "Class": "Parasympatholytic", "Route": "IM", "Indication": "Organophosphate Poison", "Contra": "None in true emergency", "Dose": "2 mg Atropine"}
+        {"Drug": "Duo-Dote", "Class": "Parasympatholytic", "Route": "IM", "Indication": "Organophosphate Poison", "Contra": "None in true emergency", "Dose": "2 g"}
     ]
 st.set_page_config(layout="wide", page_title="EMT Smart-Matrix")
 
