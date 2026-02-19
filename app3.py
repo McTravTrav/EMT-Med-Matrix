@@ -7,14 +7,14 @@ def get_matrix_data():
         {"Drug": "Nitroglycerin", "Class": "Nitrate", "Route": "SL", "Indication": "Cardiac Chest Pain", "Contra": "BP < 100 systolic, ED meds", "Dose": "0.4 mg"},
         {"Drug": "Epinephrine 1:1000", "Class": "Sympathomimetic", "Route": "IM", "Indication": "Anaphylactic Reaction", "Contra": "None in true emergency", "Dose": "0.3 mg"},
         {"Drug": "Albuterol", "Class": "Bronchodilator", "Route": "Inhaled", "Indication": "Asthma/Wheezing", "Contra": "Tachycardia, Cardiac chest pain", "Dose": "2.5 mg/3 ml"},
-        {"Drug": "Oral Glucose", "Class": "Carbohydrate", "Route": "Buccal", "Indication": "Hypoglycemia", "Contra": "Decreased LOC, airway risk", "Dose": "25 g"},
-        {"Drug": "Activated Charcoal", "Class": "Adsorbent", "Route": "Oral", "Indication": "Oral poisoning/overdose", "Contra": "Decreased LOC, corrosives", "Dose": "1 g/kg"},
+        {"Drug": "Oral Glucose", "Class": "Carbohydrate", "Route": "Buccal", "Indication": "Hypoglycemia", "Contra": "Decreased LOC, airway risk", "Dose": "15 g"},
+        {"Drug": "Activated Charcoal", "Class": "Adsorbent", "Route": "Oral", "Indication": "Oral poisoning/overdose", "Contra": "Decreased LOC, corrosives", "Dose": "1-2 g/kg"},
         {"Drug": "Zofran", "Class": "Anti-emetic", "Route": "Oral (ODT)", "Indication": "Nausea", "Contra": "Allergic, Pregnant", "Dose": "4-8 mg"},
         {"Drug": "Narcan", "Class": "Opiate Antagonist", "Route": "IM, IN", "Indication": "Opiate Overdose", "Contra": "None in true emergency", "Dose": "0.4 - 2.0 mg"},
         {"Drug": "Benadryl", "Class": "Anti-histamine", "Route": "Oral", "Indication": "Allergic Reaction", "Contra": "Hypertension, Constipation", "Dose": "25-50 mg"},
         {"Drug": "Duo-Neb", "Class": "Beta Agonist + Anticholinergic", "Route": "Inhaled", "Indication": "COPD/Asthma", "Contra": "None in true emergency", "Dose": "3.5 mg/3.0 mL"},
         {"Drug": "Glucagon", "Class": "Hormone", "Route": "IM", "Indication": "BGL < 50, Unable to swallow", "Contra": "None in true emergency", "Dose": "1 mg"},
-        {"Drug": "Duo-Dote", "Class": "Parasympatholytic", "Route": "IM", "Indication": "Organophosphate Poison", "Contra": "None in true emergency", "Dose": "2 g"}
+        {"Drug": "Duo-Dote", "Class": "Parasympatholytic", "Route": "IM", "Indication": "Organophosphate Poison", "Contra": "None in true emergency", "Dose": "2 mg"}
     ]
 st.set_page_config(layout="wide", page_title="EMT Smart-Matrix")
 
